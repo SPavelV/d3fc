@@ -5,3 +5,4 @@ build
 site/dist/*
 *log
 site/src/api
+package-lock.json
