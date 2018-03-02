@@ -2151,7 +2151,14 @@ d3fc-discontinuous-scale@2.0.5:
     d3-time "^1.0.0"
     d3fc-rebind "^4.1.1"
 
-d3fc-element@3.0.1, d3fc-element@^3.0.1:
+d3fc-element@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/d3fc-element/-/d3fc-element-4.0.0.tgz#2aaaf19e2df9bbf126cdecbe68c7193b3f21469d"
+  dependencies:
+    d3-selection "^1.0.2"
+    document-register-element "^1.0.10"
+
+d3fc-element@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/d3fc-element/-/d3fc-element-3.0.1.tgz#d5049af395f24381dcc0a6175664aaa231aebaf2"
   dependencies:
