@@ -19,7 +19,7 @@ npm install d3fc-brush
 The d3fc-brush component adapts the [d3-brush](https://github.com/d3/d3-brush), to achieve the following:
 
  1. The d3fc-brush is data-driven, with the location of the brush determined by the data supplied via a data join. This makes it easier to create charts that are responsive (i.e, support re-sizing), integrate with other interactive components such as zoom, and create chart rendering logic that is idempotent.
- 2. The d3fc-brush exposes `xScale` and `yScale` properties for integration with the [multi series](https://github.com/d3fc/d3fc-series#multi-series) component and [cartesian chart](https://github.com/d3fc/d3fc-chart) component. As a result the extent of the brush is automatically set based on the range of each axis.
+ 2. The d3fc-brush exposes `xScale` and `yScale` properties for integration with the [multi series](https://github.com/d3fc/d3fc/tree/master/packages/d3fc-series#multi-series) component and [cartesian chart](https://github.com/d3fc/d3fc/tree/master/packages/d3fc-chart) component. As a result the extent of the brush is automatically set based on the range of each axis.
  3. The d3fc-brush selection (which defines the brushed range), is represented as a percentage, whereas d3-brush uses pixels. The use of a percentage selection makes it easier to resize a brushed chart.
  4. The brush events expose utility functions for computing the axis domain based on the current selection, making it easier to handle brush events and update the chart.
 
@@ -109,7 +109,7 @@ Creates a new two-dimensional brush.
 
 Creates a new one-dimensional brush along the x-dimension.
 
-<a name="brushY" href="#brushY">#</a> fc.**brushY**()  
+<a name="brushY" href="#brushY">#</a> fc.**brushY**()
 
 Creates a new one-dimensional brush along the y-dimension.
 
@@ -127,7 +127,7 @@ The event object exposes the following fields:
  - `xDomain` - the x-domain represented by the given selection.
  - `yDomain` - the y-domain represented by the given selection.
 
-<a name="xScale" href="#xScale">#</a> *brush*.**xScale**(*scale*)  
+<a name="xScale" href="#xScale">#</a> *brush*.**xScale**(*scale*)
 <a name="yScale" href="#yScale">#</a> *brush*.**yScale**(*scale*)
 
 If *scale* is specified, sets the scale and returns this brush. If *scale* is not specified, returns the current scale.
