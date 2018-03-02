@@ -1,5 +1,6 @@
 {
   "name": "d3fc-discontinuous-scale",
+  "version": "2.0.5",
   "description": "A D3 scale that supports domains that are not continuous, allowing 'breaks' in the scale, for example skipping weekends for a date scale.",
   "license": "MIT",
   "keywords": [
@@ -7,17 +8,13 @@
     "d3fc",
     "scale"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-discontinuous-scale",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-discontinuous-scale.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-discontinuous-scale"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "d3fc-scripts": "^1.6.2"

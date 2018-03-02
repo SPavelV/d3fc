@@ -1,5 +1,6 @@
 {
   "name": "d3fc-chart",
+  "version": "1.4.1",
   "description": "A simple Cartesian chart component that renders to canvas or SVG.",
   "license": "MIT",
   "keywords": [
@@ -8,25 +9,20 @@
     "chart",
     "cartesian"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-chart",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-chart.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-chart"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "babel-polyfill": "^6.13.0",
     "d3": "^4.2.5",
     "d3fc-annotation": "^1.0.3",
     "d3fc-extent": "^2.2.1",
-    "d3fc-scripts": "^1.6.2",
-    "semantic-release": "^4.3.5"
+    "d3fc-scripts": "^1.6.2"
   },
   "dependencies": {
     "d3-scale": "^1.0.3",

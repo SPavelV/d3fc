@@ -1,5 +1,6 @@
 {
   "name": "d3fc-random-data",
+  "version": "1.1.0",
   "description": "Components for generating random data series based on stochastic processes",
   "license": "MIT",
   "keywords": [
@@ -15,17 +16,13 @@
     "ohlc",
     "stream"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-random-data",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-random-data.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-random-data"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "d3fc-scripts": "^1.6.1"

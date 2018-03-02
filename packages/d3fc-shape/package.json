@@ -1,5 +1,6 @@
 {
   "name": "d3fc-shape",
+  "version": "4.0.1",
   "description": "A collection of SVG/canvas path generators for creating chart series",
   "license": "MIT",
   "keywords": [
@@ -11,17 +12,13 @@
     "context",
     "context2d"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-shape",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-shape.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-shape"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "d3-path": "^1.0.3",

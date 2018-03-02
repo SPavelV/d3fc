@@ -12,9 +12,9 @@ For details of installation and general usage, visit the [d3fc project webpage](
 
 ## Developing
 
-[npm](https://www.npmjs.com/), the package manager for [Node.js](https://nodejs.org/), is used to manage the project's dependencies. The project is built and tested via npm scripts, with releases managed via [semantic release](https://github.com/semantic-release/semantic-release).
+[yarn](https://yarnpkg.com/), a package manager for [Node.js](https://nodejs.org/), is used to manage the project's dependencies. The project is built and tested via `package.json` scripts, with all commits following the conventions from [semantic release](https://github.com/semantic-release/semantic-release) (which we will re-adopt once [semantic release supports lerna](https://github.com/lerna/lerna/blob/v2.9.0/README.md#independent-mode---independent)).
 
-This project acts as a bundler for the individual d3fc packages, which are all listed under the [d3fc organization](https://github.com/d3fc). If you want to contribute features or fixes to d3fc you should locate the correct package and make your changes there.
+This project acts as a bundler for the individual d3fc packages, which can be found in the `packages` directory. If you want to contribute features or fixes to d3fc you should locate the correct package and make your changes there.
 
 ## License
 

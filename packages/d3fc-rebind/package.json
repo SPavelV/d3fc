@@ -1,5 +1,6 @@
 {
   "name": "d3fc-rebind",
+  "version": "4.1.1",
   "description": "Utilities for copying methods from one d3 component to another in a configurable way",
   "license": "MIT",
   "keywords": [
@@ -9,17 +10,13 @@
     "rebindAll",
     "all"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-rebind",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-rebind.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-rebind"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "d3fc-scripts": "^1.6.1"

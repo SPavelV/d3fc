@@ -1,5 +1,6 @@
 {
   "name": "d3fc-series",
+  "version": "3.1.1",
   "description": "A collection of components for rendering data series to SVG and canvas, including line, bar, OHLC, candlestick and more",
   "license": "MIT",
   "keywords": [
@@ -7,17 +8,13 @@
     "d3fc",
     "scale"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-series",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-series.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-series"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "babel-polyfill": "^6.13.0",

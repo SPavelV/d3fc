@@ -1,5 +1,6 @@
 {
   "name": "d3fc-group",
+  "version": "1.0.0",
   "description": "A utility for manipulating CSV / TSV data to allow rendering of grouped series.",
   "license": "MIT",
   "keywords": [
@@ -9,20 +10,15 @@
     "D3",
     "d3fc"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-group",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-group.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-group"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
-    "d3fc-scripts": "^1.6.1",
-    "semantic-release": "^4.3.5"
+    "d3fc-scripts": "^1.6.1"
   }
 }

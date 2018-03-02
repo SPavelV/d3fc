@@ -10,6 +10,8 @@ var commandLineArgs = require('command-line-args');
 
 rimraf.sync('build');
 
+console.log('tee hee hee');
+
 mkdirp.sync('build');
 
 var optionDefinitions = [

@@ -1,5 +1,6 @@
 {
   "name": "d3fc-brush",
+  "version": "1.0.1",
   "description": "Adapts the D3 brush, making it easier to create data-driven brushed charts.",
   "license": "MIT",
   "keywords": [
@@ -7,17 +8,13 @@
     "d3fc",
     "brush"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-brush",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-brush.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-brush"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "babel-polyfill": "^6.13.0",

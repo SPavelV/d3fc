@@ -1,5 +1,6 @@
 {
   "name": "d3fc-label-layout",
+  "version": "5.1.0",
   "description": "A D3 layout that places labels avoiding overlaps using either a greedy or simulated annealing strategy",
   "license": "MIT",
   "keywords": [
@@ -8,17 +9,13 @@
     "label",
     "layout"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-label-layout",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-label-layout.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-label-layout"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
     "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "site": "rollup -c site/rollup.config.js",
     "dev": "npm run site && watch -p '{src,test}/**/*.js' -c 'npm run site'",
     "deploy-site": "npm run site && bash ./site/deploy.sh"

@@ -1,5 +1,6 @@
 {
   "name": "d3fc-technical-indicator",
+  "version": "6.1.1",
   "description": "Components for calculating technical indicators on data series",
   "license": "MIT",
   "keywords": [
@@ -23,19 +24,15 @@
     "rsi",
     "stochastic oscillator"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-technical-indicator",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-technical-indicator.js",
   "jsnext:main": "index",
   "typings": "d3fc-technical-indicator.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-technical-indicator"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
     "test": "d3fc-scripts test",
-    "screenshot": "d3fc-scripts screenshot",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "screenshot": "d3fc-scripts screenshot"
   },
   "devDependencies": {
     "babel-polyfill": "^6.13.0",

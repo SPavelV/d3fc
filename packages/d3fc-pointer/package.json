@@ -1,26 +1,20 @@
 {
   "name": "d3fc-pointer",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Very simple D3 component which emits an event to indicate the current mouse or touch position over a selection",
   "main": "index.js",
   "scripts": {
     "test": "d3fc-scripts test",
-    "bundle": "d3fc-scripts bundle",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "bundle": "d3fc-scripts bundle"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-pointer.git"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "keywords": [
     "d3",
     "d3fc",
     "pointer"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/d3fc/d3fc-pointer/issues"
-  },
-  "homepage": "https://github.com/d3fc/d3fc-pointer",
+  "homepage": "https://d3fc.io",
   "devDependencies": {
     "d3fc-scripts": "^1.6.1"
   },

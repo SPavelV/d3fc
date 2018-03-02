@@ -1,5 +1,6 @@
 {
   "name": "d3fc-data-join",
+  "version": "4.1.1",
   "description": "A component that simplifies the D3 data join and supports the d3fc decorate pattern",
   "license": "MIT",
   "keywords": [
@@ -7,17 +8,13 @@
     "d3fc",
     "datajoin"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-data-join",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-data-join.js",
   "jsnext:main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-data-join"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "dependencies": {
     "d3-selection": "^1.0.0"

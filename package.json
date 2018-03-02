@@ -4,8 +4,8 @@
   "description": "A collection of components that make it easy to build interactive charts with D3",
   "main": "build/d3fc.js",
   "scripts": {
-    "bundle": "d3fc-scripts bundle --include-d3fc",
-    "test": "d3fc-scripts bundle --include-d3fc && eslint site && npm run site",
+    "bundle": "lerna run bundle && d3fc-scripts bundle --include-d3fc",
+    "test": "npm run bundle && eslint site && npm run site",
     "site": "npm-run-all site:clean site:build site:styles site:copy",
     "site:dev": "cross-env NODE_ENV=dev npm-run-all bundle site site:serve",
     "site:styles": "node-sass site/src/style/styles.scss site/dist/styles.css",
@@ -15,8 +15,7 @@
     "site:copy": "npm-run-all site:copy:cname site:copy:assets site:copy:dependencies",
     "site:build": "babel-node site/scripts/build.js",
     "site:clean": "rimraf site/dist && mkdirp site/dist/examples/bubble",
-    "site:serve": "live-server site/dist",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "site:serve": "live-server site/dist"
   },
   "repository": {
     "type": "git",
@@ -75,7 +74,7 @@
     "html-entities": "^1.2.0",
     "jquery": "^3.1.1",
     "js-yaml": "^3.7.0",
-    "lerna": "^3.0.0-alpha.1",
+    "lerna": "^2.0.0",
     "live-server": "^1.1.0",
     "marked": "^0.3.6",
     "mkdirp": "^0.5.1",

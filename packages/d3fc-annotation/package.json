@@ -1,5 +1,6 @@
 {
   "name": "d3fc-annotation",
+  "version": "1.1.0",
   "description": "A collection of D3 components for rendering plot area annotations to SVG, including lines, crosshairs, gridlines and more",
   "license": "MIT",
   "keywords": [
@@ -8,16 +9,12 @@
     "annotation",
     "crosshair"
   ],
-  "homepage": "https://github.com/d3fc/d3fc-annotation",
+  "homepage": "https://d3fc.io",
   "main": "build/d3fc-annotation.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/d3fc/d3fc-annotation"
-  },
+  "repository": "https://github.com/d3fc/d3fc",
   "scripts": {
     "bundle": "d3fc-scripts bundle",
-    "test": "d3fc-scripts test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "d3fc-scripts test"
   },
   "devDependencies": {
     "babel-polyfill": "^6.16.0",
